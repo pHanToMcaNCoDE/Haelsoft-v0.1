@@ -6,15 +6,15 @@ import BenefitCards from './BenefitCards'
 
 const Benefits = () => {
   return (
-    <section className='xl:h-screen w-full flex justify-between items-center'>
-      <div className='px-8 hidden xl:flex h-full py-[100px] gap-[4em] flex-col justify-start bg-[#D98E47]/20 w-full lg:w-[40%] xl:w-[50%]'>
+    <section className='min-h-screen w-full flex justify-between items-center'>
+      <div className='px-8 hidden xl:flex h-full py-[100px] gap-[4em] flex-col justify-start bg-[#D98E47]/20 w-full lg:w-[40%] xl:w-[45%] 2xl:w-[50%]'>
         <h1 className='text-[#F36400] text-[2.125rem] font-semibold leading-10 w-full 2xl:w-[690px]'>Interactive Learning & Certification Benefits</h1>
         <div className='relative'>
           <img className='-rotate-[10deg] object-cover rounded-2xl absolute left-[5%] 2xl:left-[10%]' width={330} height={330} src={ben} alt="" />
           <img className='rotate-6 object-cover rounded-2xl absolute left-[30%] 2xl:left-[40%]' width={330} height={330} src={benTwo} alt="" />
         </div>
       </div>
-      <div className='w-full xl:w-[50%] xl:relative xl:right-[6%] 2xl:right-[5%] 2xl:px-0 px-8 flex flex-col justify-center items-center gap-10 h-full xl:h-auto py-[100px]'>
+      <div className='w-full xl:w-[55%] 2xl:w-[50%] xl:relative xl:right-[6%] 2xl:right-[5%] 2xl:px-0 px-8 flex flex-col justify-center items-center gap-10 h-full xl:h-auto py-[100px]'>
         <h1 className='text-[#F36400] flex xl:hidden text-[2.125rem] font-semibold leading-10 w-full lg:w-[690px] text-center'>Interactive Learning & Certification Benefits</h1>
         <BenefitCards/>
       </div>

@@ -3,7 +3,7 @@ import video from '../../public/assets/Student note over wooden desk.mp4';
 
 const Hero = () => {
   return (
-    <section className='w-full relative hero'>
+    <section className='w-full relative hero h-[70vh] lg:h-auto'>
       <video autoPlay muted loop playsInline className="hero-video">
         <source src='/assets/Student note over wooden desk.mp4' type="video/mp4" />
         Your browser does not support the video tag.

@@ -23,7 +23,7 @@ const Navbar = ({ clicked, setClicked }) => {
         isScrolled ? 'bg-white shadow-lg' : 'bg-[#4c4f5f]/30'
       }`}
     >
-      <div className='container mx-auto flex justify-between items-center p-2 max-w-[1200px] 2xl:max-w-[1500px] mx-auto'>
+      <div className='container flex justify-between items-center p-2 max-w-[1200px] 2xl:max-w-[1500px] mx-auto'>
         <img width={100} height={100} className='object-cover' src={logo} alt="Logo" />
 
         <ul className={`flex justify-between items-center gap-8 text-[1.125rem] font-normal leading-8 ${isScrolled ? 'text-black' : 'text-white'}`}>

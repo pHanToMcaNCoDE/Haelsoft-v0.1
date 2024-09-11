@@ -72,7 +72,7 @@ const CourseCrd = () => {
     ];    
 
     return (
-        <div className='relative z-30 grid grid-cols-1 md:grid-cols-2 gap-[40px] place-items-end ml-auto mt-[20px] lg:mt-[110px]'>
+        <div className='relative z-30 grid grid-cols-1 md:grid-cols-2 gap-10 lg:place-items-end ml-auto mt-[20px] md:mt-[110px] w-full md:w-auto'>
             {courses.map((course, index) => (
                 <div key={index} className='bg-white w-full lg:w-[394px] min-h-[298px] rounded shadow-xl'>
                     <div className='flex justify-start items-center gap-7 pt-[16px] pb-[6px] px-[12px]'>

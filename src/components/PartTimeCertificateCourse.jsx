@@ -7,11 +7,11 @@ import CourseCrd from "./CourseCrd";
 
 const PartTimeCertificateCourse = () => {
   return (
-    <section className="relative w-full min-h-screen xl:h-[137vh] 2xl:h-[120vh] pb-[20px] 2xl:pb-[100px]">
-      <div className="absolute top-[100px] xl:top-[180px] 2xl:top-[150px] inset-0">
+    <section className="relative w-full min-h-screen xl:h-[137vh] 2xl:h-[120vh] overflow-hidden">
+      <div className="absolute hidden md:flex top-[180px] 2xl:top-[150px]">
         <img 
           src={imgCover}
-          className="max-h-[1000px] 2xl:max-h-[1100px] w-[1500px] 2xl:w-[3000px]"
+          className="lg:max-h-[1000px] 2xl:max-h-[1100px] lg:w-[1500px] 2xl:w-[3000px]"
           alt="Background Image"
         />
       </div>
