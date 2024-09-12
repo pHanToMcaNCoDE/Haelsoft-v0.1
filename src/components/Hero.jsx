@@ -8,7 +8,7 @@ const Hero = () => {
         <source src='/assets/Student note over wooden desk.mp4' type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="hero-content px-10 lg:px-8 w-full gap-[2em]">
+      <div className="hero-content px-5 lg:px-8 w-full gap-[2em]">
         <div className='max-w-[1200px] 2xl:max-w-[1530px] mx-auto'>
             <div className='flex flex-col gap-[6em] py-[100px]'>
                 <div className='flex flex-col gap-2'>

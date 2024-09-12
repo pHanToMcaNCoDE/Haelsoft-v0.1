@@ -6,7 +6,7 @@ import { GrCertificate, GrDirections } from 'react-icons/gr'
 const BenefitCards = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 justify-items-start gap-10 xl:gap-x-[5em] 2xl:gap-8'>
-        <div className='bg-white shadow-xl flex flex-col justify-start items-start border-t-4 border-t-[#F36400] w-full xl:w-[350px] 2xl:w-[430px] h-[350px] p-7 2xl:p-10 gap-10'>
+        <div className='bg-white shadow-xl flex flex-col justify-start items-start border-t-4 border-t-[#F36400] w-full xl:w-[350px] 2xl:w-[430px] h-[350px] p-5 2xl:p-10 gap-10'>
             <FaBarsProgress className='text-[2.5rem] text-[#F36400]' />
             <div className='flex flex-col gap-4'>
                 <h1 className='text-[1.25rem] text-black font-bold leading-5'>Progress Tracking</h1>

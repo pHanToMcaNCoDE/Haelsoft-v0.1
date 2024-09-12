@@ -1,9 +1,16 @@
 import React from 'react'
 import vector from '../../public/assets/vector.svg'
 
-const Menu = ({clicked}) => {
+const Menu = () => {
+
+    // className={` ${
+    //     clicked ? 'opacity-100' : 'opacity-0'
+    //   } ${clicked ? 'visible' : 'invisible'} fixed top-[6.5%] w-full bg-white shadow-xl shadow-zinc-200 z-50 p-10`}
+    //   style={{
+    //     transition: 'visibility 0s linear 0.3s, opacity 0.3s ease-in-out',
+    //   }}
   return (
-    <nav className={clicked ? 'overflow-hidden h-[432px] w-full shadow-xl shadow-zinc-200 bg-white sticky top-[6.5%] p-10 z-50 duration-200 opacity-100 flex' : 'overflow-hidden h-[432px] w-full shadow-xl shadow-zinc-200 bg-white sticky top-[6.5%] p-10 z-50 duration-200 opacity-0 hidden'}>
+    <nav className='overflow-hidden h-[432px] w-full shadow-xl shadow-zinc-200 bg-white fixed top-[6.55%] p-10 z-50 opacity-100 flex'>
       <img className='absolute z-[999] left-[-50%] 2xl:left-[-35%] w-[1200px] h-[700px] bottom-[-80%]' src={vector} alt="" />
         <div className='flex justify-center items-center gap-[4em] h-full max-w-[1500px] mx-auto'>
             <div className='h-full flex flex-col justify-start items-start gap-5'>

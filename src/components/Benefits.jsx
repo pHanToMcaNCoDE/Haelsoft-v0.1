@@ -7,9 +7,9 @@ import BenefitCards from './BenefitCards'
 const Benefits = () => {
   return (
     <section className='min-h-screen w-full flex justify-between items-center'>
-      <div className='px-8 hidden xl:flex h-full py-[100px] gap-[4em] flex-col justify-start bg-[#D98E47]/20 w-full lg:w-[40%] xl:w-[45%] 2xl:w-[50%]'>
+      <div className='px-5 lg:px-8 hidden xl:flex min-h-screen py-[100px] gap-[4em] flex-col justify-start bg-[#D98E47]/20 w-full lg:w-[40%] xl:w-[45%] 2xl:w-[50%]'>
         <h1 className='text-[#F36400] text-[2.125rem] font-semibold leading-10 w-full 2xl:w-[690px]'>Interactive Learning & Certification Benefits</h1>
-        <div className='relative'>
+        <div className='relative h-[50vh]'>
           <img className='-rotate-[10deg] object-cover rounded-2xl absolute left-[5%] 2xl:left-[10%]' width={330} height={330} src={ben} alt="" />
           <img className='rotate-6 object-cover rounded-2xl absolute left-[30%] 2xl:left-[40%]' width={330} height={330} src={benTwo} alt="" />
         </div>
