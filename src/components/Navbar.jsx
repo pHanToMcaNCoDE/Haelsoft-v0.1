@@ -67,7 +67,7 @@ const Navbar = ({ clicked, setClicked }) => {
               ))}
             </ul>
 
-            <button className={`flex justify-center items-center w-[150px] h-[43px] rounded transition-colors duration-300 ${isScrolled ? 'bg-[#F36400] text-white' : 'bg-[#F36400] text-white'}`}>
+            <button className={`flex justify-center items-center w-[150px] h-[43px] rounded transition-colors duration-300 ${isScrolled ? 'bg-[#F36400] border border-[#F36400] rounded text-white' : 'bg-[#F36400] border border-[#F36400] rounded text-white'}`}>
               Sign In
             </button>
           </div>

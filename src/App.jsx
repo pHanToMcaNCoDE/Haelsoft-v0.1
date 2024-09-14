@@ -13,6 +13,7 @@ import ResponsiveNetwork from './components/ResponsiveNetwork';
 import PartTimeCertificateCourse from './components/PartTimeCertificateCourse';
 import Menu from './components/Menu';
 import About from './pages/About';
+import Careers from './pages/Careers';
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -27,7 +28,8 @@ function App() {
   return (
     <main onClick={handleClickOutside} className='relative'>
       <Navbar clicked={clicked} setClicked={setClicked} />
-      <About/>
+      <Careers/>
+      {/* <About/> */}
       {/* <Hero />
       <Companies />
       <Courses />

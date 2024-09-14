@@ -10,12 +10,13 @@ import obj5 from '/assets/EdTech Platform (2).svg';
 
 const AboutStart = () => {
   return (
-    <section className='min-h-screen py-[100px] flex flex-col gap-[15em] max-w-[1200px] 2xl:max-w-[1500px] mx-auto px-5 lg:px-8'>
+    <section className='min-h-screen py-[200px] flex flex-col gap-[15em] max-w-[1200px] 2xl:max-w-[1500px] mx-auto px-5 lg:px-8'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-[4em] md:gap-[8em] h-full'>
             <div className='w-full lg:w-[50%] h-full flex flex-col gap-8'>
                 <div className='flex flex-col'>
                     <p className='text-[#655D59] uppercase text-[0.75rem] leading-[18px] font-medium'>our story</p>
                     <h1 className='text-[1.625rem] font-semibold leading-[45px] text-[#F36400]'>Haelsoft Ed-tech</h1>
+                    <div className='bg-[#F1C118] h-[4px] w-[56px] rounded'></div>
                 </div>
                 <p className='text-[.875rem] leading-[24px] text-[#655D59] font-normal w-full lg:w-[469px]'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
@@ -44,6 +45,7 @@ const AboutStart = () => {
             <div className='w-full lg:w-[50%] h-full flex flex-col gap-8'>
                 <div className='flex flex-col'>
                     <h1 className='text-[1.625rem] font-semibold leading-[45px] text-[#F36400]'>Why Haelsoft?</h1>
+                    <div className='bg-[#F1C118] h-[4px] w-[56px] rounded'></div>
                 </div>
                 <p className='text-[.875rem] leading-[24px] text-[#655D59] font-normal w-full lg:w-[469px]'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 

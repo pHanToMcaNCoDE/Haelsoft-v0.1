@@ -9,6 +9,7 @@ const Leaders = () => {
             <div className='w-full lg:w-[50%] h-full flex flex-col gap-8'>
                 <div className='flex flex-col'>
                     <h1 className='text-[1.625rem] font-semibold leading-[45px] text-[#201A18]'>Empowering Leaders of Tomorrow</h1>
+                    <div className='bg-[#F1C118] h-[4px] w-[56px] rounded'></div>
                 </div>
                 <p className='text-[.875rem] leading-[24px] text-[#655D59] font-normal w-full lg:w-[469px]'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 

@@ -17,7 +17,10 @@ const CuttingEdgeSkills = () => {
     <section className='py-[100px] flex flex-col justify-center items-center gap-[7em]'>
         <div className='max-w-[1200px] px-5 2xl:max-w-[1500px] mx-auto flex flex-col justify-center items-center gap-[7em]'>
             <div className='flex flex-col justify-center items-center gap-10 text-center'>
-                <h1 className='text-[1.625rem] text-[#201A18] font-semibold leading-[36px]'>Cutting-Edge Digital Skills</h1>
+                <div className='flex flex-col justify-center items-center gap-1'>
+                    <h1 className='text-[1.625rem] text-[#201A18] font-semibold leading-[36px]'>Cutting-Edge Digital Skills</h1>
+                    <div className='bg-[#F1C118] h-[4px] w-[56px] rounded'></div>
+                </div>
                 <p className='text-[.875rem] text-[#655D59] font-normal leading-[24px] w-full lg:w-[779px]'>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
                 </p>
