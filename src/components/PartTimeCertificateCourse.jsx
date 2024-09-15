@@ -1,6 +1,4 @@
 import React from "react";
-// import Image from "next/image";
-import CourseCards from "./CourseCards";
 import imgCover from '../../public/assets/EdTech Platform 2.svg';
 import cover from '../../public/assets/EdTech Platform Vector 1.svg';
 import CourseCrd from "./CourseCrd";

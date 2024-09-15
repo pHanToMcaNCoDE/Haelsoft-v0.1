@@ -15,6 +15,8 @@ import Menu from './components/Menu';
 import About from './pages/About';
 import Careers from './pages/Careers';
 import Blog from './pages/Blog';
+import CorporateHire from './pages/CorporateHire';
+import CorporateTraining from './pages/CorporateTraining';
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -30,7 +32,9 @@ function App() {
     <main onClick={handleClickOutside} className='relative'>
       <Navbar clicked={clicked} setClicked={setClicked} />
       {/* <Careers/> */}
-      <Blog/>
+      {/* <Blog/> */}
+      {/* <CorporateHire/> */}
+      <CorporateTraining/>
       {/* <About/> */}
       {/* <Hero />
       <Companies />
