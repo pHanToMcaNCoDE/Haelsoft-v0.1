@@ -14,6 +14,7 @@ import PartTimeCertificateCourse from './components/PartTimeCertificateCourse';
 import Menu from './components/Menu';
 import About from './pages/About';
 import Careers from './pages/Careers';
+import Blog from './pages/Blog';
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -28,7 +29,8 @@ function App() {
   return (
     <main onClick={handleClickOutside} className='relative'>
       <Navbar clicked={clicked} setClicked={setClicked} />
-      <Careers/>
+      {/* <Careers/> */}
+      <Blog/>
       {/* <About/> */}
       {/* <Hero />
       <Companies />
