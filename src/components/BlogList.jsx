@@ -4,7 +4,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 const BlogList = () => {
   return (
-    <section className='max-w-[1200px] 2xl:max-w-[1500px] mx-auto py-[100px] px-5 flex flex-col gap-[6em]'>
+    <section className='max-w-[1200px] 2xl:max-w-[1500px] mx-auto py-[300px] pb-[100px] px-5 flex flex-col gap-[6em]'>
         <div className='justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-x-3 gap-y-[4em]'>
             <BlogCard/>
             <BlogCard/>

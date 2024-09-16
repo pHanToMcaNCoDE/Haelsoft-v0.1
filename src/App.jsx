@@ -17,6 +17,9 @@ import Careers from './pages/Careers';
 import Blog from './pages/Blog';
 import CorporateHire from './pages/CorporateHire';
 import CorporateTraining from './pages/CorporateTraining';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
 
 function App() {
   const [clicked, setClicked] = useState(false);
@@ -30,22 +33,18 @@ function App() {
 
   return (
     <main onClick={handleClickOutside} className='relative'>
-      <Navbar clicked={clicked} setClicked={setClicked} />
-      {/* <Careers/> */}
-      {/* <Blog/> */}
-      {/* <CorporateHire/> */}
-      <CorporateTraining/>
-      {/* <About/> */}
-      {/* <Hero />
-      <Companies />
-      <Courses />
-      <Benefits />
-      <Network />
-      <ResponsiveNetwork />
-      <PartTimeCertificateCourse />
-      <Instructors />
-      <GetStarted /> */}
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout/>}>
+            <Route index element={<Home />} />
+            <Route path='/about' element={<About/>}></Route>
+            <Route path='/corporate-hire' element={<CorporateHire/>}></Route>
+            <Route path='/corporate-training' element={<CorporateTraining/>}></Route>
+            <Route path='/careers' element={<Careers/>}></Route>
+            <Route path='/blogs' element={<Blog/>}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </main>
   );
 }
