@@ -33,5 +33,12 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['hover'],
+      backgroundColor: ['hover'],
+      borderColor: ['hover'],
+    },
+  },
   plugins: [require("tailwindcss-animate")],
 }

@@ -11,7 +11,7 @@ import GetStarted from './components/GetStarted';
 import Network from './components/Network';
 import ResponsiveNetwork from './components/ResponsiveNetwork';
 import PartTimeCertificateCourse from './components/PartTimeCertificateCourse';
-import Menu from './components/Menu';
+// import Menu from './components/Menu';
 import About from './pages/About';
 import Careers from './pages/Careers';
 import Blog from './pages/Blog';
@@ -22,7 +22,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 
 function App() {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState('');
 
   // Close menu when clicking outside
   const handleClickOutside = () => {
@@ -35,7 +35,7 @@ function App() {
     <main onClick={handleClickOutside} className='relative'>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Layout/>}>
+          <Route path='/' element={<Layout clicked={clicked} setClicked={setClicked}/>}>
             <Route index element={<Home />} />
             <Route path='/about' element={<About/>}></Route>
             <Route path='/corporate-hire' element={<CorporateHire/>}></Route>

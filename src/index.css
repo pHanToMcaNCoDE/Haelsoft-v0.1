@@ -24,6 +24,9 @@ body {
 body {
   font-family: 'Open Sans', sans-serif;
 } */
+aside {
+  transition: transform 0.2s ease-in-out;
+}
 
 /* Hero and Video Styling */
 .hero {
