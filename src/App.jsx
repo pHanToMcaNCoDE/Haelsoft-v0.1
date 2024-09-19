@@ -27,7 +27,7 @@ function App() {
   // Close menu when clicking outside
   const handleClickOutside = () => {
     if (clicked) {
-      setClicked(false);
+      setClicked('');
     }
   };
 
@@ -37,7 +37,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout clicked={clicked} setClicked={setClicked}/>}>
             <Route index element={<Home />} />
-            <Route path='/about' element={<About/>}></Route>
+            <Route path='/our-story' element={<About/>}></Route>
             <Route path='/corporate-hire' element={<CorporateHire/>}></Route>
             <Route path='/corporate-training' element={<CorporateTraining/>}></Route>
             <Route path='/careers' element={<Careers/>}></Route>
