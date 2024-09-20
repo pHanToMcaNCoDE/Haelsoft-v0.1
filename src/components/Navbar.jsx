@@ -46,9 +46,9 @@ const Navbar = ({ clicked, setClicked }) => {
       {/* Mobile Navigation */}
       <nav className='navbar h-[68px] xl:hidden fixed top-0 left-0 w-full z-[9999] transition-all duration-300 bg-white border-b-[2px] border-b-[#EEEEEEEE] flex justify-center items-center'>
         <div className="container flex justify-between items-center p-2 max-w-[1200px] 2xl:max-w-[1500px] mx-auto gap-4">
-          {click ? (
+          {clicked ? (
             <div className='transition duration-300 ease-in-out opacity-100 transform scale-100 flex justify-between items-center gap-10 w-[50%]'>
-              <div onClick={() => setClick(false)} className='text-blue-500 underline cursor-pointer flex justify-center items-center gap-2'>
+              <div onClick={() => setClicked('')} className='text-blue-500 underline cursor-pointer flex justify-center items-center gap-2'>
                 <FaArrowLeftLong />
                 <p>Back</p>
               </div>

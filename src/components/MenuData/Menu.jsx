@@ -8,7 +8,7 @@ import AboutData from './AboutData';
 const Menu = ({ clicked, setClicked }) => {
   return (
     <nav
-      className={`overflow-hidden fixed min-h-[348px] top-[6.55%] w-full bg-white hidden xl:flex shadow-xl shadow-zinc-200 z-50 p-10 ${
+      className={`overflow-hidden fixed min-h-[348px] top-[6%] xl:top-[5.5%] w-full bg-white hidden xl:flex shadow-xl shadow-zinc-200 z-50 p-10 ${
         clicked ? 'opacity-100 visible' : 'opacity-0 invisible'
       } transition-opacity duration-300 ease-in-out`}
       style={{

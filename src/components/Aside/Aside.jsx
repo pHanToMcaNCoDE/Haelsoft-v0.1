@@ -5,7 +5,7 @@ import AsideData from './AsideData';
 import './style.css';
 import secureLocalStorage from 'react-secure-storage';
 
-const Aside = ({ menu, click, setClick }) => {
+const Aside = ({ menu, clicked, setClicked }) => {
   const links = [
     { name: 'Home', route: '/' },
     { name: 'About', route: '#' },
@@ -17,7 +17,7 @@ const Aside = ({ menu, click, setClick }) => {
   ];
 
   const handleClick = (item) => {
-    setClick(item);
+    setClicked(item);
     secureLocalStorage.setItem('Title', item);
   };
 
@@ -38,8 +38,8 @@ const Aside = ({ menu, click, setClick }) => {
           </Link>
         ))}
       </div>
-      {(click === 'Courses' || click === 'Corporate' || click === 'Bootcamps' || click === 'About') && (
-        <AsideData click={click} setClick={setClick} />
+      {(clicked === 'Courses' || clicked === 'Corporate' || clicked === 'Bootcamps' || clicked === 'About') && (
+        <AsideData clicked={clicked} setClicked={setClicked} />
       )}
     </aside>
   );

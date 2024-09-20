@@ -5,11 +5,11 @@ import CorporateData from '../MenuData/CorporateData';
 import BootcampsData from '../MenuData/BootcampsData';
 import AboutData from '../MenuData/AboutData';
 
-const AsideData = ({ click, setClick }) => {
+const AsideData = ({ clicked, setClicked }) => {
   return (
     <aside
-        className={`flex xl:hidden bg-white p-[25px] sticky h-screen top-[5%] right-0 w-full z-50 transition-transform duration-300 ${
-            click === 'Courses' || click === 'Corporate' || click === 'Bootcamps' || click === 'About'
+        className={`flex xl:hidden bg-white p-[25px] sticky h-screen top-[8%] xl:top-[5%] right-0 w-full z-50 transition-transform duration-300 ${
+            clicked === 'Courses' || clicked === 'Corporate' || clicked === 'Bootcamps' || clicked === 'About'
             ? 'translate-x-0 duration-300'
             : '-translate-x-full duration-300'
         }`}
@@ -21,10 +21,10 @@ const AsideData = ({ click, setClick }) => {
       alt="Decorative Vector"
     />
     {/* Render CoursesData when clicked is 'Courses' */}
-    {click === 'Courses' && <CoursesData />}
-    {click === 'Corporate' && <CorporateData />}
-    {click === 'Bootcamps' && <BootcampsData />}
-    {click === 'About' && <AboutData />}
+    {clicked === 'Courses' && <CoursesData />}
+    {clicked === 'Corporate' && <CorporateData />}
+    {clicked === 'Bootcamps' && <BootcampsData />}
+    {clicked === 'About' && <AboutData />}
     </aside>
 
   );
